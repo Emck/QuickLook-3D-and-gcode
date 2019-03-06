@@ -11,7 +11,9 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>public.data</string>
+				<string>com.elektriktrick.gcode</string>
+				<string>dyn.ah62d4rv4ge80s25tqvwu</string>
+				<string>dyn.ah62d4rv4ge80622</string>
 			</array>
 		</dict>
 	</array>
@@ -54,9 +56,9 @@
 	<key>QLNeedsToBeRunInMainThread</key>
 	<false/>
 	<key>QLPreviewHeight</key>
-	<real>600</real>
+	<integer>400</integer>
 	<key>QLPreviewWidth</key>
-	<real>800</real>
+	<integer>500</integer>
 	<key>QLSupportsConcurrentRequests</key>
 	<true/>
 	<key>QLThumbnailMinimumSize</key>
@@ -71,7 +73,7 @@
 			<key>UTTypeDescription</key>
 			<string>CNC Toolpath</string>
 			<key>UTTypeIdentifier</key>
-			<string>public.gcode</string>
+			<string>com.elektriktrick.gcode</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
@@ -81,7 +83,6 @@
 				</array>
 			</dict>
 		</dict>
-	</array>	
-	
+	</array>
 </dict>
 </plist>
