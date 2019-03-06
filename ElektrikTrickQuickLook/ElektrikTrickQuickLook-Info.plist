@@ -11,12 +11,7 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.elektriktrick.stl</string>
-				<string>com.elektriktrick.gcode</string>
-				<string>com.elektriktrick.dxf</string>
-				<string>public.standard-tesselated-geometry-format</string>
-				<string>public.text-nc</string>
-				<string>com.pleasantsoftware.uti.stl</string>
+				<string>dyn.ah62d4rv4ge80622</string>
 			</array>
 		</dict>
 	</array>
@@ -37,7 +32,7 @@
 	<key>CFPlugInDynamicRegisterFunction</key>
 	<string></string>
 	<key>CFPlugInDynamicRegistration</key>
-	<string>YES</string>
+	<string>NO</string>
 	<key>CFPlugInFactories</key>
 	<dict>
 		<key>8D269336-626C-4F43-903F-D2F6AE5C4976</key>
@@ -72,57 +67,20 @@
 			<key>UTTypeConformsTo</key>
 			<array>
 				<string>public.data</string>
-				<string>public.3d-content</string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>Stereolithography Object</string>
-			<key>UTTypeIdentifier</key>
-			<string>com.elektriktrick.stl</string>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>public.standard-tesselated-geometry-format</key>
-				<string></string>
-				<key>public.filename-extension</key>
-				<array>
-					<string>stl</string>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
 			<string>CNC Toolpath</string>
 			<key>UTTypeIdentifier</key>
-			<string>com.elektriktrick.gcode</string>
+			<string>public.gcode</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>gcode</string>
-					<string>bfb</string>
+					<string>nc</string>
 				</array>
 			</dict>
 		</dict>
-		<dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>public.data</string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>CAD Drawing</string>
-			<key>UTTypeIdentifier</key>
-			<string>com.elektriktrick.dxf</string>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>public.filename-extension</key>
-				<array>
-					<string>dxf</string>
-				</array>
-			</dict>
-		</dict>
-	</array>
+	</array>	
+	
 </dict>
 </plist>
