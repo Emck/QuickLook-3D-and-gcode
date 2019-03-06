@@ -11,7 +11,7 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>dyn.ah62d4rv4ge80622</string>
+				<string>public.data</string>
 			</array>
 		</dict>
 	</array>
@@ -76,6 +76,7 @@
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
+					<string>gcode</string>
 					<string>nc</string>
 				</array>
 			</dict>

@@ -61,7 +61,7 @@ OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview,
                         
                         model->Prepare2DDrawing();
                         model->CGDraw2D(cgContext, canvasSize.width, canvasSize.height);
-                        ET::DrawText(cgContext, 18, 10.0f, 10.0f, "www.elektriktrick.com  QL:v1.1.0");
+                        ET::DrawText(cgContext, 18, 10.0f, 10.0f, "test 005  QL:v1.1.0");
                         
                         CGContextRestoreGState(cgContext);
                         QLPreviewRequestFlushContext(preview, cgContext);
